@@ -1,0 +1,34 @@
+#container {
+    display: flex;
+}
+.block {
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 10px;
+    max-width: 30px;
+    min-height: 10px;
+}
+
+#actions > button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#actions-queue > button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff4f4;
+    border: 1px solid black;
+    border-radius: 5px;
+}
